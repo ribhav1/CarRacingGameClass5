@@ -15,13 +15,13 @@ var trackImg, groundImg;
 
 function preload(){
 
-carImg1 = loadImage("images/car1.png");
-carImg2 = loadImage("images/car2.png")
-carImg3 = loadImage("images/car3.png");
-carImg4 = loadImage("images/car4.png");
+carImg1 = loadImage("car1.png");
+carImg2 = loadImage("car2.png")
+carImg3 = loadImage("car3.png");
+carImg4 = loadImage("car4.png");
 
-trackImg = loadImage("images/track.jpg");
-groundImg = loadImage("images/ground.png");
+trackImg = loadImage("track.jpg");
+groundImg = loadImage("ground.png");
 
 }
 
@@ -46,3 +46,4 @@ function draw(){
     game.end();
   }
 }
+
